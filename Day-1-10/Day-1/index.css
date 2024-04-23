@@ -1,0 +1,39 @@
+.container{
+    width: 25%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box1{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.container input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+.entervalue{
+    width: 25%;
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
