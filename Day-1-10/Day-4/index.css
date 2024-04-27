@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+}
+.box-jokes{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    border: 2px solid blue;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+}
+.box-jokes p{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.box-jokes span{
+    font-size: 1rem;
+    color: gray;
+}
+.type{
+    width: 150px;
+    text-align: center;
+    color:black !important;
+    font-weight: 700;
+    background-color: yellow;
+    padding: 0.5rem 1rem; 
+    margin: 1rem 0;
+}
+.next{
+    display: flex;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(187, 230, 122);
+    color: black;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+}
+.next:hover{
+    background-color: greenyellow;
+}
