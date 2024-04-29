@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.main{
+    width: 40%;
+    height: auto;
+    background-color: greenyellow;
+    color: black;
+    padding: 20px 20px; 
+    border-radius: 10px;
+}
+.box{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+.btn{
+    cursor: pointer;
+    position: relative;
+    margin-right: 1rem;
+}
+.btn img{
+    top:0;
+    position: absolute;
+    width: 30px;
+}
+.content{
+    opacity: 0.7;
+    display: none;
+    font-size: 0.8rem;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:800px) {
+    .main{
+        width: 90%;
+    }
+}
