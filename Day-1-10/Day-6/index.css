@@ -12,6 +12,11 @@
     position: relative;
 
 }
+.container h1{
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
 .main{
     width: 40%;
     height: auto;
@@ -61,5 +66,7 @@
 @media screen and (min-width:0px) and (max-width:800px) {
     .main{
         width: 90%;
+        height: auto;
+        display: flex;
     }
 }
