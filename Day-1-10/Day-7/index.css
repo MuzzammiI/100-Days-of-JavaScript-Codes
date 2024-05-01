@@ -1,0 +1,128 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: poppins;
+    background-color: greenyellow;
+    
+}
+.container h1{
+    text-align: center;
+    margin: 0.5rem;
+}
+.titleName{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper{
+    padding: 1.5rem 0;
+    width: 90%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.left{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    height: auto;
+}
+.left img{
+    width: 100%;
+    overflow: hidden;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+}
+.right{
+    width: 50%;
+    height: auto;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: auto;
+}
+.header ul{
+    height: auto;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+.header ul li{
+    list-style: none;
+}
+.header ul li button{
+    text-decoration: none;
+    font-family: poppins;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(247, 247, 247);
+    color: rgb(0, 0, 0);
+    margin: 0.5rem;
+}
+
+.header ul li button:hover{
+    background-color: black;
+    color: white;
+}
+#downItem{
+    background-color: black;
+    height: auto;
+    color: white;
+    margin: 1rem 0; 
+    padding: 0.5rem 1.5rem;
+}
+
+#downItem p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.5rem 0;
+    text-decoration: underline;
+}
+#downItem span{
+    opacity: 0.7;
+    text-align: start !important;
+    font-weight: 400;
+}
+
+.created{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 5px solid red;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .container{
+        height: auto;
+    }
+    .created{
+        bottom: 0;
+        font-size: 0.7rem;
+    }
+.wrapper{
+    flex-direction: column;
+}
+.left{
+    width: 100%;
+}
+.right,.header{
+    width: 100%;
+}
+.left img{
+    height: 30vh;
+}
+
+}
