@@ -13,10 +13,10 @@ Inc.addEventListener("click",()=>{
 Dec.addEventListener("click",()=>{
     if(value<1){
         Dec.style.display="hidden";
-        htmlvalue.innerHTML="Please Enter the Positive value"
+        htmlvalue.innerHTML="Enter Only Positive Number"
         
     }
-    else{
+    else{   
         value--;
         htmlvalue.innerHTML=value;
     }
