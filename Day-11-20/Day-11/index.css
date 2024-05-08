@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+.sm-font{
+    font-size: 0.8rem;
+    color: #dcddcd;
+}
+
+body{
+    font-family: poppins;
+}
+.temp-heading{
+    text-align: center;
+    margin: 0.5rem;
+}
+
+
+.r-template{
+    width: 70%;
+    height: 100%;
+    background-color: greenyellow;
+    color: black;
+    display: flex;
+    font-family: poppins;
+    padding: 3rem;
+    border: 1px solid black;
+    margin: 1rem auto;
+}
+
+.hide{
+    display: none;
+}
+
+
+.r-left-part{
+    width: 30%;
+    height: auto;
+    background-color: #000080;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.r-profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.r-profile img{
+    width: 80px;
+    border-radius: 50%;
+}
+#t-title{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.r-links{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.r-links li{
+    list-style: none;
+}
+.r-links li a{
+    color: white;
+}
+.r-address{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+.r-skills{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.r-skills h3{
+    margin: 1rem 0;
+}
+
+.btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.btn span{
+    padding: 0.5rem 1.5rem;
+    background-color: black ;
+    color: white;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+.r-right-part{
+width: 70%;
+height: auto;
+display: flex;
+flex-direction: column;
+padding: 0.5rem 3rem;
+}
+
+.r-profile-details,.r-employment-details,.r-education-details{
+    padding: 1rem 0;
+}
+
+
+.r-profile-details h1,.r-employment-details h1,.r-education-details h1,.r-cetificate-details h1{
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+.r-employment-details h4,.r-education-details h4{
+    margin: 0.5rem 0;
+}
+
+
+/* dynamic template Css adding */
+
+
+
+.b-template{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+/* z */
+.yourlinks{
+    display: flex;
+    flex-direction: column;
+}
+.yourname,.yourlinks label,.address label,.objective label,.experience label,.projects label,.education label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.yourname input,.yourlinks input,.address textarea,.objective textarea,.experience input ,.experience textarea,.projects input,.projects textarea,.education input,.education textarea{
+    padding: 0.8rem;
+    margin: 3px 0;
+    font-size: 1rem;
+}

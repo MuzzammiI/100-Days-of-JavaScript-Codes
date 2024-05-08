@@ -47,7 +47,7 @@
   .main-page{
     width: 100%;
     color: white;
-    height: 100vh;
+    height: auto;
   padding: 2rem;
     background-color: black;
     display: flex;
