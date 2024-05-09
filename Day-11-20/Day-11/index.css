@@ -199,3 +199,15 @@ padding: 0.5rem 3rem;
     margin: 3px 0;
     font-size: 1rem;
 }
+
+
+
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .r-template{
+        width: 100%;
+        margin: 0.5rem;
+        padding: 0;
+    }
+    
+}
