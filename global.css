@@ -47,8 +47,10 @@
   .main-page{
     width: 100%;
     color: white;
-    height: auto;
-  padding: 2rem;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    padding: 2rem;
     background-color: black;
     display: flex;
     flex-direction: column;
