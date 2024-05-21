@@ -1,0 +1,34 @@
+.quizApp{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option form {
+    display: flex;
+    flex-direction: column;
+}
+.option form span{
+    cursor: pointer;
+}
+#submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+    width: 200px;
+    height: auto;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    font-family: poppins;
+    cursor: pointer;
+}
