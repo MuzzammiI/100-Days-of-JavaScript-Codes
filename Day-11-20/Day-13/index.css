@@ -8,8 +8,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
-
+.popup{
+    position: absolute;
+    width:367px;
+    height: 5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    top: 5vh;
+    left: 5vh;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: flex;
+}
 .option form {
     display: flex;
     flex-direction: column;
@@ -31,4 +50,14 @@
     border: none;
     font-family: poppins;
     cursor: pointer;
+}
+
+
+@media screen and (min-width:0px) and (max-width:676px) {
+    .quizApp{
+        display: flex;
+        padding: 1rem;
+        align-items: start;
+        width: 100%;
+    }
 }

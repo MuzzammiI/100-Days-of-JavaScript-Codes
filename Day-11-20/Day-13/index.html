@@ -9,9 +9,14 @@
   </head>
   <body>
     <div class="quizApp">
+      <div class="popup hide" >
+        <span id="correct" class="hide">Correct Answer</span>
+        <span id="wrong" class="hide">Wrong Answer!</span></div>
       <h1>Quiz App</h1>
+      
+
       <div class="container">
-        <h1>Who is the Prime minister of India ?</h1>
+        <h4>Who is the Prime minister of India ?</h4>
         <div class="option">
           <form id="QuizForm">
             <div>
@@ -30,7 +35,6 @@
               <input type="radio" value="No one" name="whois" id="noone" />
               <label for="noone"><span>No any one</span></label>
             </div>
-
             <button id="submit">Submit</button>
           </form>
         </div>
