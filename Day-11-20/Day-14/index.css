@@ -1,0 +1,74 @@
+.form-container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: poppins;
+}
+.form-box{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    background-color: greenyellow;
+    color: black;
+    
+}
+.form-box form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-box form label{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.show{
+    width: 48%;
+    margin:0 5px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-size: 14px;
+}
+.danger{
+    color: red;
+}
+
+.form-box form label input{
+    width: 300px;
+    height: auto;
+    padding: 0.5rem 1.5rem;
+}
+#login{
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+}
+.hide{
+    color: red;
+    display: none;
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .show{
+        width: 188%;
+    }
+}
