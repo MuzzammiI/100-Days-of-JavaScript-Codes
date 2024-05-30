@@ -1,0 +1,36 @@
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: poppins;
+}
+.img-box{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    margin: 0 auto;
+flex-wrap: wrap;
+justify-content: start;
+gap: 0.5rem 1rem ;
+align-items: start;
+}
+.img-box img{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+
+}
+.container input{
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 1rem;
+}
