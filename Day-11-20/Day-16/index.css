@@ -17,9 +17,10 @@
     display: flex;
     margin: 0 auto;
 flex-wrap: wrap;
-justify-content: start;
+justify-content: center;
 gap: 0.5rem 1rem ;
-align-items: start;
+align-items: center;
+padding: 1.5rem;
 }
 .img-box img{
     width: 320px;

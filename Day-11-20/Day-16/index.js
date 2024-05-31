@@ -1,6 +1,8 @@
 // const btn = document.getElementById("S-btn");
-const UserInput = document.getElementById("S-btn");
+const UserInput = document.getElementById("searchBtn");
 const btn = document.getElementById("btn")
+const box = document.querySelector(".img-box");
+
 const ImgBulk = [
   {
     id: 1,
@@ -40,18 +42,24 @@ const ImgBulk = [
 ];
 
 ImgBulk.forEach((item,index)=>{
-    const box = document.querySelector(".img-box");
     box.innerHTML +=
     `
     <img src="${item.img}" alt="${item.name}" >
     `
-    // console.log(UserInput.value)
 })
 
 btn.addEventListener("click",function(){
-    let Sdata = [];
-    const data = UserInput.value;
-    let item = ImgBulk.filter(1)
-    console.log(item);
-    Sdata += item.push();
+  const userValue = UserInput.value.toUpperCase();
+  ImgBulk.forEach((e)=>{
+    // console.log(e.name.toUpperCase());
+    if(e.name.toUpperCase().indexOf(userValue)> -1){
+      box.innerHTML =`
+            <img src="${e.img}" alt="${e.name}" >
+              `
+              userValue += " ";
+    }
+    else{
+      box.innerHTML ="Data Not Found";
+    }
+  })
 })
