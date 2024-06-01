@@ -1,0 +1,169 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:  white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins ;
+    position: relative;
+}
+.container h1{
+    margin: 1.5rem;
+}
+.box{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left,.right{
+    display: flex;
+    width: 48%;
+    padding: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.search-city{
+    width: 30%;
+    padding: 0.5rem;
+    /* background-color: bisque; */
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+.search-city input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+.movein-moveout{
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    /* background-color: aquamarine; */
+}
+.movein-moveout label input{
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 20px;
+}
+.movein-moveout label input[type=date]::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+.movein-moveout label input[type=date]::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+.movein-moveout label input[type=date]::-webkit-datetime-edit-day-field{
+    -webkit-appearance: none;
+    display: none;
+}
+.movein-moveout label input[type=date]::-webkit-datetime-edit-year-field{
+    -webkit-appearance: none;
+    display: none;
+}
+.right{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+}
+.right-l{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-l i{
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+.btn{
+    width: 20%;
+    padding: 0.5rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: auto;
+    background-color: blue;
+}
+.text-show{
+    display: none;
+    border: 1px solid grey;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.text-show p{
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+.text-show span{
+    color: greenyellow;
+}
+
+.alert-popup{
+    display: flex;
+    background-color: red;
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    top: 10px ;
+    left: 10px;
+}
+.show{
+    display: flex;
+}
+.hide{
+    display: none;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    
+    .left{
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .search-city{
+        width: 100%;
+    }
+    .movein-moveout{
+        width: 100%;
+        margin: 0.5rem 0;
+        justify-content: space-around;
+    }
+    .movein-moveout label span,.right-l span ,.right-l p{
+        font-size: 0.9rem;
+    }
+    .right{
+        width: 80%;
+        justify-content: space-between;
+    }
+    .right-l i{
+        padding: 5px;
+        margin: 0 5px;
+    }
+    .btn{
+        width: 120px;
+        font-size: 0.9rem;
+
+    }
+}
